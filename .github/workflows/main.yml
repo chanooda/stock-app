@@ -63,5 +63,5 @@ jobs:
         run: aws deploy create-deployment
           --application-name github-action
           --deployment-config-name CodeDeployDefault.OneAtATime
-          --deployment-group-name github-action-group
+          --deployment-group-name stock
           --s3-location bucket=cakemate-source-bucket,bundleType=tgz,key=stock/deploy.tar.gz
