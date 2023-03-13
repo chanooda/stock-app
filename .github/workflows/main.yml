@@ -44,8 +44,8 @@ jobs:
       - name: archive build
         run: |
           cd deploy
-          ls
           tar cvfz ./deploy.tar.gz *
+          ls
 
       - name: AWS configure credentials
         uses: aws-actions/configure-aws-credentials@v1
@@ -55,7 +55,7 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: upload to S3
-        run: aws s3 cp --region ap-northeast-2 ./deploy.tar.gz s3://cakemate-source-bucket/stock/
+        run: aws s3 cp --region ap-northeast-2 ../deploy.tar.gz s3://cakemate-source-bucket/stock/
 
       - name: deploy with AWS codeDeploy
         run: aws deploy create-deployment
