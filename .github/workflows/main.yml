@@ -38,7 +38,7 @@ jobs:
         run: |
           mkdir -p deploy/{server,client}
           mv client/build/* deploy/client
-          mv dist/* deploy/server - server build
+          mv dist/* deploy/server
           mv package.json deploy
 
       - name: archive build
