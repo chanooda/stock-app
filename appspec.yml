@@ -3,7 +3,7 @@ os: linux
 
 files:
   - source: /
-    destination: /home/ubuntu/cakemates
+    destination: /home/ubuntu/stock
     overwrite: yes
 hooks:
   AfterInstall:

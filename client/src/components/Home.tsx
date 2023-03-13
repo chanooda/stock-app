@@ -55,6 +55,7 @@ function Home() {
     };
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // document의 총 크기가 윈도우의 높이보다 작아 스크롤을 할 수 없을 때를 대비한 버튼
