@@ -1,2 +1,2 @@
-docker stop cakemates
-docker start cakemates
+docker stop stock
+docker start stock
