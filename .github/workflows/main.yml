@@ -40,6 +40,8 @@ jobs:
           mv client/build/* deploy/client
           mv dist/* deploy/server
           mv package.json deploy
+          mv after-install.sh deploy
+          mv appspec.yml deploy
 
       - name: archive build
         run: |
