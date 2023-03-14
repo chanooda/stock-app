@@ -64,4 +64,4 @@ jobs:
           --application-name chanoo-deploy
           --deployment-config-name CodeDeployDefault.OneAtATime
           --deployment-group-name chanoo-deploy-stock
-          --s3-location bucket=chanooda-deploy,bundleType=tgz,key=stock/deploy.tar.gz
+          --s3-location bucket=chanoo-deploy,bundleType=tgz,key=stock/deploy.tar.gz
