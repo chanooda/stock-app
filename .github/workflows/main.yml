@@ -57,7 +57,7 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: upload to S3
-        run: aws s3 cp --region ap-northeast-2 ./deploy/deploy.tar.gz s3://chanooda-deploy/stock/
+        run: aws s3 cp --region ap-northeast-2 ./deploy/deploy.tar.gz s3://chanoo-deploy/stock/
 
       - name: deploy with AWS codeDeploy
         run: aws deploy create-deployment
