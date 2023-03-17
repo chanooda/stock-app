@@ -1,2 +1,4 @@
+cd stock
 docker stop stock
-docker start stock
+docker rm stock
+docker build -t stock .
