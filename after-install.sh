@@ -1,5 +1,4 @@
 cd /home/ubuntu/stock
-sudo rm -r stock
 docker stop stock
 docker rm stock
 docker image rm stock
