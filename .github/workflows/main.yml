@@ -42,6 +42,7 @@ jobs:
           mv package.json deploy
           mv after-install.sh deploy
           mv appspec.yml deploy
+          mv Dockerfile deploy
 
       - name: archive build
         run: |
