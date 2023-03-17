@@ -40,7 +40,7 @@ jobs:
           mv client/build/* deploy/client
           mv dist/* deploy/server
           mv package.json deploy
-          mv ValidateService.sh deploy
+          mv after-install.sh deploy
           mv appspec.yml deploy
           mv Dockerfile deploy
 

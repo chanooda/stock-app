@@ -6,5 +6,5 @@ files:
     destination: /home/ubuntu/stock
     overwrite: yes
 hooks:
-  ValidateService:
-    - location: ./ValidateService.sh
+  AfterInstall:
+    - location: ./after-install.sh
