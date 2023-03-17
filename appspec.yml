@@ -7,4 +7,4 @@ files:
     overwrite: yes
 hooks:
   ValidateService:
-    - location: ./ValidateService
+    - location: ./ValidateService.sh
