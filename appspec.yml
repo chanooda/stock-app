@@ -6,5 +6,5 @@ files:
     destination: /home/ubuntu/stock
     overwrite: yes
 hooks:
-  AfterAllowTraffic:
-    - location: ./AfterAllowTraffic
+  ValidateService:
+    - location: ./ValidateService
